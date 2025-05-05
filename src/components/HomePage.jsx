@@ -12,9 +12,9 @@ const HomePage = () => {
           </div>
           <nav>
             <ul className="flex space-x-6">
-              <li><a href="#about" className="hover:text-[#3B7CA4] transition duration-300">About</a></li>
-              <li><a href="#benefits" className="hover:text-[#3B7CA4] transition duration-300">Benefits</a></li>
-              <li><a href="#contact" className="hover:text-[#3B7CA4] transition duration-300">Contact</a></li>
+              <li><a href="#about" className="hover:text-[#3B7CA4] transition duration-300">O projektu</a></li>
+              <li><a href="#benefits" className="hover:text-[#3B7CA4] transition duration-300">Výhody</a></li>
+              <li><a href="#contact" className="hover:text-[#3B7CA4] transition duration-300">Kontakt</a></li>
             </ul>
           </nav>
         </div>
@@ -23,12 +23,12 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="bg-[#3B7CA4] text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Investing in a Sustainable Future</h2>
+          <h2 className="text-4xl font-bold mb-6">Investice do udržitelné budoucnosti</h2>
           <p className="text-xl max-w-3xl mx-auto">
-            Empowering communities through clean, renewable wind energy solutions
+            Posilujeme komunity prostřednictvím čistých, obnovitelných řešení větrné energie
           </p>
           <button className="mt-8 bg-[#4E7C2D] hover:bg-[#3e6324] text-white py-3 px-8 rounded-full font-semibold transition duration-300">
-            Learn More
+            Zjistit více
           </button>
         </div>
       </section>
@@ -36,20 +36,20 @@ const HomePage = () => {
       {/* About the Project */}
       <section id="about" className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#4E7C2D] mb-12">Our Wind Energy Project</h2>
+          <h2 className="text-3xl font-bold text-center text-[#4E7C2D] mb-12">Náš projekt větrné energie</h2>
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-              <img src="/wind-turbine.jpg" alt="Wind Turbines" className="rounded-lg shadow-lg" />
+              <img src="/wind-turbine.jpg" alt="Větrné turbíny" className="rounded-lg shadow-lg" />
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
-                Ze-Invest is dedicated to developing sustainable wind energy solutions that benefit both the environment and local communities. Our projects harness the natural power of wind to generate clean electricity, reducing reliance on fossil fuels.
+                Ze-Invest se věnuje vývoji udržitelných řešení větrné energie, která prospívají jak životnímu prostředí, tak místním komunitám. Naše projekty využívají přírodní sílu větru k výrobě čisté elektřiny a snižují závislost na fosilních palivech.
               </p>
               <p className="text-lg mb-4">
-                With state-of-the-art turbine technology and careful site selection, we maximize energy production while minimizing environmental impact. Each project is designed with sustainability and community integration at its core.
+                Díky nejmodernější technologii turbín a pečlivému výběru lokalit maximalizujeme výrobu energie a minimalizujeme dopad na životní prostředí. Každý projekt je navržen s důrazem na udržitelnost a integraci do komunity.
               </p>
               <p className="text-lg">
-                We believe in transparent partnerships with communities, creating energy solutions that provide long-term benefits for all stakeholders involved.
+                Věříme v transparentní partnerství s komunitami a vytváříme energetická řešení, která přinášejí dlouhodobé výhody pro všechny zúčastněné strany.
               </p>
             </div>
           </div>
@@ -59,28 +59,28 @@ const HomePage = () => {
       {/* Benefits Section */}
       <section id="benefits" className="py-16 bg-[#DCCDB7]">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#4E7C2D] mb-12">Benefits for Communities</h2>
+          <h2 className="text-3xl font-bold text-center text-[#4E7C2D] mb-12">Výhody pro komunity</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-[#3B7CA4] text-4xl mb-4">
                 <i className="fas fa-hand-holding-usd"></i>
               </div>
-              <h3 className="text-xl font-bold mb-3">Economic Growth</h3>
-              <p>Our projects create jobs, stimulate local businesses, and provide financial returns to community investors.</p>
+              <h3 className="text-xl font-bold mb-3">Ekonomický růst</h3>
+              <p>Naše projekty vytvářejí pracovní místa, stimulují místní podniky a poskytují finanční návratnost komunitním investorům.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-[#3B7CA4] text-4xl mb-4">
                 <i className="fas fa-leaf"></i>
               </div>
-              <h3 className="text-xl font-bold mb-3">Environmental Impact</h3>
-              <p>Clean energy production reduces carbon emissions and pollution, contributing to a healthier local environment.</p>
+              <h3 className="text-xl font-bold mb-3">Vliv na životní prostředí</h3>
+              <p>Výroba čisté energie snižuje emise uhlíku a znečištění, což přispívá ke zdravějšímu místnímu prostředí.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-[#3B7CA4] text-4xl mb-4">
                 <i className="fas fa-users"></i>
               </div>
-              <h3 className="text-xl font-bold mb-3">Community Ownership</h3>
-              <p>Our cooperative model ensures communities have a say in project development and share in the benefits.</p>
+              <h3 className="text-xl font-bold mb-3">Komunitní vlastnictví</h3>
+              <p>Náš družstevní model zajišťuje, že komunity mají slovo při vývoji projektu a podílejí se na výhodách.</p>
             </div>
           </div>
         </div>
@@ -89,29 +89,36 @@ const HomePage = () => {
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-[#4E7C2D] text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Kontaktujte nás</h2>
           <div className="max-w-3xl mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="mb-8 text-center">
+              <p className="font-bold mb-1">ADRESA:</p>
+              <p className="mb-3">Chrustenice 179, 267 12 Chrustenice</p>
+              <p className="mb-3">
+                <a href="mailto:info@zeinvest.cz" className="text-[#3B7CA4] hover:underline">info@zeinvest.cz</a>
+              </p>
+            </div>
             <form>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label className="block text-sm font-medium mb-2">First Name</label>
+                  <label className="block text-sm font-medium mb-2">Jméno</label>
                   <input type="text" className="w-full p-3 border border-gray-300 rounded-md" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2">Last Name</label>
+                  <label className="block text-sm font-medium mb-2">Příjmení</label>
                   <input type="text" className="w-full p-3 border border-gray-300 rounded-md" />
                 </div>
               </div>
               <div className="mb-6">
-                <label className="block text-sm font-medium mb-2">Email</label>
+                <label className="block text-sm font-medium mb-2">E-mail</label>
                 <input type="email" className="w-full p-3 border border-gray-300 rounded-md" />
               </div>
               <div className="mb-6">
-                <label className="block text-sm font-medium mb-2">Message</label>
+                <label className="block text-sm font-medium mb-2">Zpráva</label>
                 <textarea rows="4" className="w-full p-3 border border-gray-300 rounded-md"></textarea>
               </div>
               <button type="submit" className="bg-[#3B7CA4] hover:bg-[#336b8e] text-white py-3 px-6 rounded-md font-medium transition duration-300">
-                Send Message
+                Odeslat zprávu
               </button>
             </form>
           </div>
@@ -124,7 +131,7 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <img src="/logo.png" alt="Ze-Invest Logo" className="h-10 mb-2" />
-              <p>&copy; {new Date().getFullYear()} Ze-Invest. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Ze-Invest. Všechna práva vyhrazena.</p>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-[#DCCDB7] transition duration-300">
